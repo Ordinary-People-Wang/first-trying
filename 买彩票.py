@@ -2,6 +2,7 @@ import random
 fonds=200
 print('您的初始资金为200美刀！每次买中最低可得5倍奖金！十轮后若资金大于200美刀即可获胜！')
 for i in range(10):
+    print('第',i+1,'轮')
     a=random.randint(1, 9)
     number=int(input("请选择您要购买的号码（1-9）："))
     while number<=0 or number>9:
